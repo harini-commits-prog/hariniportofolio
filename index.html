@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio of Harini Rayapudi, a B.Tech student and aspiring frontend web developer.">
+
+    <meta property="og:title"
+          content="Harini Rayapudi | Frontend Web Developer">
+
+    <meta property="og:description"
+          content="Frontend Web Developer and B.Tech student building responsive and user-friendly web experiences.">
+
+    <title>Harini Rayapudi | Frontend Web Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#home" class="logo">Harini.</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        ☰
+    </button>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-social">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>
+            Harini <span>Rayapudi</span>
+        </h1>
+
+        <h2>
+            Frontend Web Developer<br>
+            & B.Tech Student
+        </h2>
+
+        <p class="hero-text">
+            I build responsive, user-focused web experiences
+            with clean interfaces and practical frontend technologies.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">
+                View My Projects
+            </a>
+
+            <a href="#" class="btn secondary">
+                Download Resume
+            </a>
+
+            <a href="#contact" class="btn secondary">
+                Contact Me
+            </a>
+        </div>
+
+        <div class="social-links">
+            <a href="#" aria-label="GitHub">GitHub ↗</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn ↗</a>
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="code-card">
+
+            <div class="code-top">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <pre><code>
+const developer = {
+  name: "Harini",
+  role: "Frontend Developer",
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+  ],
+  learning: true
+};
+            </code></pre>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="section" id="about">
+
+    <div class="section-heading">
+        <p>01 — ABOUT</p>
+        <h2>Building with curiosity.</h2>
+    </div>
+
+    <div class="about-grid">
+
+        <div>
+            <p class="large-text">
+                I'm Harini Rayapudi, a B.Tech student at
+                CMR Technical Campus with a strong interest
+                in frontend web development.
+            </p>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                I enjoy creating responsive websites,
+                exploring UI/UX design and turning ideas
+                into practical digital experiences.
+            </p>
+
+            <p>
+                I'm continuously learning modern web
+                technologies and building projects to
+                strengthen my development skills.
+            </p>
+
+            <p>
+                My current goal is to gain practical
+                experience through a frontend web
+                development internship.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section class="section skills-section" id="skills">
+
+    <div class="section-heading">
+        <p>02 — SKILLS</p>
+        <h2>Tools I work with.</h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <article class="skill-card">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>HTML</h3>
+            <p>Semantic structure for accessible web pages.</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">#</div>
+            <h3>CSS</h3>
+            <p>Responsive layouts, styling and animations.</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interactive and dynamic web experiences.</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">R</div>
+            <h3>React.js</h3>
+            <p>Component-based frontend development.</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">N</div>
+            <h3>Node.js</h3>
+            <p>Learning backend development and APIs.</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">UI</div>
+            <h3>UI/UX</h3>
+            <p>Designing simple and user-focused interfaces.</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">F</div>
+            <h3>Figma</h3>
+            <p>Interface design and visual prototyping.</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">G</div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and project collaboration.</p>
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section class="section" id="projects">
+
+    <div class="section-heading">
+        <p>03 — PROJECTS</p>
+        <h2>Things I've built.</h2>
+    </div>
+
+    <div class="project-filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="frontend">Frontend</button>
+        <button class="filter" data-filter="javascript">JavaScript</button>
+        <button class="filter" data-filter="uiux">UI/UX</button>
+    </div>
+
+
+    <div class="projects-grid">
+
+        <article class="project-card"
+                 data-category="javascript uiux">
+
+            <div class="project-number">01</div>
+
+            <h3>FinGuard AI</h3>
+
+            <p class="project-type">
+                Financial Intelligence & Protection Platform
+            </p>
+
+            <p>
+                An explainable financial intelligence concept
+                focused on helping users understand financial
+                information and make informed decisions.
+            </p>
+
+            <div class="features">
+                <span>Credit Readiness</span>
+                <span>Transaction Intelligence</span>
+                <span>Explainable AI</span>
+                <span>What-If Simulator</span>
+                <span>Action Center</span>
+                <span>Privacy</span>
+            </div>
+
+            <div class="tech">
+                HTML · CSS · JavaScript · UI/UX
+            </div>
+
+            <div class="project-links">
+                <a href="#">GitHub ↗</a>
+                <a href="#">Live Demo ↗</a>
+            </div>
+
+        </article>
+
+
+        <article class="project-card"
+                 data-category="frontend javascript">
+
+            <div class="project-number">02</div>
+
+            <h3>Personal Portfolio</h3>
+
+            <p class="project-type">
+                Responsive Developer Portfolio
+            </p>
+
+            <p>
+                A responsive personal portfolio designed to
+                present my skills, projects, education and
+                frontend development journey.
+            </p>
+
+            <div class="features">
+                <span>Responsive Design</span>
+                <span>Accessible UI</span>
+                <span>Animations</span>
+                <span>SEO</span>
+            </div>
+
+            <div class="tech">
+                HTML · CSS · JavaScript
+            </div>
+
+            <div class="project-links">
+                <a href="#">GitHub ↗</a>
+                <a href="#">Live Demo ↗</a>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- EDUCATION -->
+
+<section class="section" id="education">
+
+    <div class="section-heading">
+        <p>04 — EDUCATION</p>
+        <h2>My learning journey.</h2>
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <span class="timeline-year">
+                2025 — 2029
+            </span>
+
+            <div>
+                <h3>B.Tech</h3>
+
+                <h4>CMR Technical Campus</h4>
+
+                <p>
+                    Current undergraduate education with
+                    continuous technical learning and
+                    practical project development.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- LEARNING -->
+
+<section class="section">
+
+    <div class="section-heading">
+        <p>05 — DEVELOPMENT</p>
+        <h2>Learning & Development.</h2>
+    </div>
+
+    <div class="journey-grid">
+
+        <div>Frontend Development</div>
+        <div>JavaScript</div>
+        <div>React.js</div>
+        <div>UI/UX</div>
+        <div>Git & GitHub</div>
+        <div>Hackathon Projects</div>
+
+    </div>
+
+</section>
+
+
+<!-- CERTIFICATIONS -->
+
+<section class="section">
+
+    <div class="section-heading">
+        <p>06 — CERTIFICATIONS</p>
+        <h2>Certifications.</h2>
+    </div>
+
+    <div class="empty-card">
+        <h3>Certification information</h3>
+        <p>[Add certification]</p>
+        <p>[Add issuing organization]</p>
+        <p>[Add year]</p>
+    </div>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+
+<section class="section">
+
+    <div class="section-heading">
+        <p>07 — ACHIEVEMENTS</p>
+        <h2>Achievements.</h2>
+    </div>
+
+    <div class="achievement-grid">
+
+        <div class="empty-card">
+            <h3>[Add hackathon achievement]</h3>
+        </div>
+
+        <div class="empty-card">
+            <h3>[Add competition]</h3>
+        </div>
+
+        <div class="empty-card">
+            <h3>[Add academic achievement]</h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="section">
+
+    <div class="section-heading">
+        <p>08 — WHAT I CAN DO</p>
+        <h2>Building useful interfaces.</h2>
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>Responsive Web Development</h3>
+            <p>Responsive websites for mobile, tablet and desktop.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Frontend Development</h3>
+            <p>Clean interfaces using modern frontend technologies.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>UI Implementation</h3>
+            <p>Turning interface designs into responsive webpages.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Landing Pages</h3>
+            <p>Simple and professional landing page experiences.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Portfolio Websites</h3>
+            <p>Personal websites for students and developers.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Basic UI/UX Design</h3>
+            <p>Simple user-focused interface design and prototypes.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="section-heading">
+        <p>09 — CONTACT</p>
+        <h2>Let's Build Something Together.</h2>
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-info">
+
+            <p>
+                I'm currently interested in frontend web
+                development internship opportunities.
+            </p>
+
+            <div class="contact-details">
+
+                <p>
+                    <strong>Email</strong><br>
+                    [Add your email]
+                </p>
+
+                <p>
+                    <strong>LinkedIn</strong><br>
+                    [Add LinkedIn URL]
+                </p>
+
+                <p>
+                    <strong>GitHub</strong><br>
+                    [Add GitHub URL]
+                </p>
+
+                <p>
+                    <strong>Location</strong><br>
+                    Hyderabad, Telangana, India
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                autocomplete="name"
+            >
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+            >
+
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn primary">
+                Send Message
+            </button>
+
+            <p id="formMessage" class="form-message"></p>
+
+        </form>
+
+    </div>
+
+    <p class="demo-note">
+        Demo contact form — connect to the backend for production.
+    </p>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div>
+        <strong>Harini Rayapudi</strong>
+        <p>Frontend Web Developer | B.Tech Student</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+    </div>
+
+    <p>© 2026 Harini Rayapudi</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
